@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rajapandian/static/css/main.039bf95e.css",
-    "main.js": "/rajapandian/static/js/main.64cd9e9e.js",
+    "main.js": "/rajapandian/static/js/main.7c896668.js",
     "static/media/banner5.png": "/rajapandian/static/media/banner5.ebdc2a2f1d3ece262bad.png",
     "static/media/Profile.png": "/rajapandian/static/media/Profile.10f68b75b70226122a6c.png",
     "static/media/Real estate site.png": "/rajapandian/static/media/Real estate site.7a9aa9a49579b3d72592.png",
     "static/media/Portfolio.png": "/rajapandian/static/media/Portfolio.3886591e3b4a5fa02654.png",
     "static/media/Hello.gif": "/rajapandian/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/parkease.png": "/rajapandian/static/media/parkease.1e948da6a113743e0201.png",
-    "static/media/Rajapandian Resume - UiUx.pdf": "/rajapandian/static/media/Rajapandian Resume - UiUx.ffaa4a0fabbdab6847e4.pdf",
+    "static/media/Rajapandian Resume - UiUx.pdf": "/rajapandian/static/media/Rajapandian Resume - UiUx.938147aa370897e70417.pdf",
     "static/media/educational.png": "/rajapandian/static/media/educational.de0336d7414107303e1c.png",
     "static/media/flipkart.png": "/rajapandian/static/media/flipkart.c6fc01898a8ef1762359.png",
     "static/media/wh lap.png": "/rajapandian/static/media/wh lap.3c73dbe8c5095961141f.png",
@@ -36,10 +36,10 @@
     "index.html": "/rajapandian/index.html",
     "static/media/css-icon.svg": "/rajapandian/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
     "main.039bf95e.css.map": "/rajapandian/static/css/main.039bf95e.css.map",
-    "main.64cd9e9e.js.map": "/rajapandian/static/js/main.64cd9e9e.js.map"
+    "main.7c896668.js.map": "/rajapandian/static/js/main.7c896668.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.64cd9e9e.js"
+    "static/js/main.7c896668.js"
   ]
 }
