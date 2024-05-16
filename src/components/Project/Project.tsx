@@ -28,7 +28,7 @@ export function Project() {
           <div className="project">
             <header>
               <a href="#" target="_blank" rel="noreferrer">
-                  <img src={file} alt="Visit site" />
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="#" target="_blank" rel="noreferrer">
@@ -54,7 +54,7 @@ export function Project() {
           <div className="project">
             <header>
               <a href="#" target="_blank" rel="noreferrer">
-                  <img src={file} alt="Visit site" />
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://github.com/Rajapandi-2713" target="_blank" rel="noreferrer">
@@ -80,7 +80,7 @@ export function Project() {
           <div className="project">
             <header>
               <a href="#" target="_blank" rel="noreferrer">
-                  <img src={file} alt="Visit site" />
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://github.com/Rajapandi-2713" target="_blank" rel="noreferrer">
@@ -107,7 +107,7 @@ export function Project() {
           <div className="project">
             <header>
               <a href="#" target="_blank" rel="noreferrer">
-                  <img src={file} alt="Visit site" />
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://github.com/Rajapandi-2713" target="_blank" rel="noreferrer">
@@ -132,7 +132,7 @@ export function Project() {
           <div className="project">
             <header>
               <a href="#" target="_blank" rel="noreferrer">
-                  <img src={file} alt="Visit site" />
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://github.com/Rajapandi-2713" target="_blank" rel="noreferrer">
@@ -155,11 +155,65 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+       
+
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://github.com/KabithaKamatchi" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://www.smartcornersproperties.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>SmartCorners - Real Estate Properties Site</h3>
+              <p>
+              This real estate site displays land properties and helps buyers and sellers. Buyers can see lots of pictures, videos, and details about properties before visiting in person. It makes it easier for buyers to find what they want and helps sellers get more attention.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Wordpress</li>               
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation> */}
+
+       {/* <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://drrohitdamor.com" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
+              <p>
+              This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Wordpress</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation> */}
+
+       {/* <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://velocityai.vinayaksingh.com/" target="_blank" rel="noreferrer">
@@ -187,7 +241,7 @@ export function Project() {
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://github.com/KabithaKamatchi" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               <div className="project-links">
@@ -210,11 +264,11 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-        {/* <ScrollAnimation animateIn="flipInX">
+       {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <a href="#" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                  <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://mayatmaj.com/" target="_blank" rel="noreferrer">
@@ -234,17 +288,15 @@ export function Project() {
               </ul>
             </footer>
           </div>
-      </ScrollAnimation> */}
+        </ScrollAnimation> */}
        
 
       </div>
-
-<br></br>
-<br></br>
+<br /><br />
 
       <h2>Design Projects</h2>
       <p>
-        These Projects are Showcased in Behance and the Behance Profile Url is linked with the Project Title.
+        These Projects are Showcased in Behance and the Behance Proproject Url is linked with the Project Title.
       </p>
 
       <br></br>
@@ -253,365 +305,322 @@ export function Project() {
 
 
 
-        <ScrollAnimation animateIn="flipInX">
+      <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <a href="#" target="_blank" rel="noreferrer">
+              <a href="#" target="_blank" rel="noreferrer">
                   <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
                   <img src={behance} alt="Visit site" />
                 </a>
+                
               </div>
-
-             
             </header>
             <div className="body">
-              <header>
-              <div className="project-links">
-                  <img className="designimg" src={mobwh} alt="Visit site" />
-              </div>
-              </header>
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>WhatsApp Mobile Ui</h3>
-              </a>
               
-            </div>
-            <footer>
-              <ul className="tech-list">
-              <li>Clone of WhatsApp Mobile Application</li>  
-              </ul>
-              
-            </footer>
-          </div>
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={mobwh} alt="Ilustração" />
         </ScrollAnimation>
 
-
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
-                  <img src={project} alt="Visit site" />
-                </a>
-              <div className="project-links">
-                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
-                  <img src={behance} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            
-            <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={mobinsta} alt="Visit site" />
-              </div>
-            </header>
-              
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Instagram Mobile Ui</h3>
-              </a>
+              <h3>Mobile WhatsApp Ui Clone</h3>
               
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Ui Clone of Instagram Application</li>  
+                <li> Tool Used :</li>
+                <li> Figma</li>
               </ul>
-              
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
-                  <img src={project} alt="Visit site" />
-                </a>
-              <div className="project-links">
-                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
-                  <img src={behance} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-
-            
-            <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={flipkart} alt="Visit site" />
-              </div>
-            </header>
-              
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Flipkart Ui</h3>
-              </a>
-              
-            </div>
-            <footer>
-              <ul className="tech-list">
-              <li>Ui Clone of the Flipkart</li>  
-              </ul>
-              
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
-                  <img src={project} alt="Visit site" />
-                </a>
-              <div className="project-links">
-                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
-                  <img src={behance} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-
-            
-            <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={whlap} alt="Visit site" />
-              </div>
-            </header>
-              
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>WhatsApp Desktop Ui</h3>
-              </a>
-              
-            </div>
-            <footer>
-              <ul className="tech-list">
-              <li>Clone of WhatsApp Desktop Ui</li>  
-              </ul>
-              
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-
-      
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
-                  <img src={project} alt="Visit site" />
-                </a>
-              <div className="project-links">
-                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
-                  <img src={behance} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-
-            
-            <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={Designpng} alt="Visit site" />
-              </div>
-            </header>
-              
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Real Estate Website Design</h3>
-              </a>
-              
-            </div>
-            <footer>
-              <ul className="tech-list">
-              <li>Ui of the Site</li>  
-              </ul>
-              
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
-                  <img src={project} alt="Visit site" />
-                </a>
-              <div className="project-links">
-                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
-                  <img src={behance} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-
-            
-            <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={portfolio} alt="Visit site" />
-              </div>
-            </header>
-              
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Personal Portfolio Website Design</h3>
-              </a>
-              
-            </div>
-            <footer>
-              <ul className="tech-list">
-              <li>Ui of Personal Portfolio</li>  
-              </ul>
-              
             </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
                   <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
                   <img src={behance} alt="Visit site" />
                 </a>
+                
               </div>
             </header>
-
-            
             <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={parkease} alt="Visit site" />
-              </div>
-            </header>
               
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Parking Mobile application</h3>
-              </a>
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={mobinsta} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Mobile Instagram Ui Clone</h3>
               
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Tool Used : Figma, Photoshop</li>  
+                <li> Tool Used :</li>
+                <li> Figma</li>
               </ul>
-              
             </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
                   <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
                   <img src={behance} alt="Visit site" />
                 </a>
+                
               </div>
             </header>
-
-            
             <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={burger} alt="Visit site" />
-              </div>
-            </header>
               
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Personal Portfolio Website Design</h3>
-              </a>
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={whlap} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Desktop WhatsApp Ui Clone</h3>
               
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Tool Used : Figma, Photoshop</li>  
+                <li> Tool Used :</li>
+                <li> Figma</li>
               </ul>
-              
             </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
                   <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
                   <img src={behance} alt="Visit site" />
                 </a>
+                
               </div>
             </header>
-
-            
             <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={bank} alt="Visit site" />
-              </div>
-            </header>
               
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Personal Portfolio Website Design</h3>
-              </a>
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={educational} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Educational Site Landing Page</h3>
               
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Tool Used : Figma, Photoshop</li>  
+                <li> Tool Used :</li>
+                <li> Figma</li>
               </ul>
-              
             </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-          <header>
-            <a href="#" target="_blank" rel="noreferrer">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
                   <img src={project} alt="Visit site" />
                 </a>
               <div className="project-links">
                 <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
                   <img src={behance} alt="Visit site" />
                 </a>
+                
               </div>
             </header>
-
-            
             <div className="body">
-            <header>
-              <div className="project-links">
-                  <img className="designimg" src={educational} alt="Visit site" />
-              </div>
-            </header>
               
-              <a href="#" target="_blank" rel="noreferrer">
-              <h3>Personal Portfolio Website Design</h3>
-              </a>
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={portfolio} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Personal Portfolio Design</h3>
               
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Tool Used : Figma, Photoshop</li>  
+                <li> Tool Used :</li>
+                <li> Figma</li>
               </ul>
-              
             </footer>
           </div>
         </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
+                  <img src={behance} alt="Visit site" />
+                </a>
+                
+              </div>
+            </header>
+            <div className="body">
+              
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={burger} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Food Delivery Application</h3>
+              
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li> Tool Used :</li>
+                <li> Figma</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
+                  <img src={behance} alt="Visit site" />
+                </a>
+                
+              </div>
+            </header>
+            <div className="body">
+              
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={parkease} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Parking Application Ui</h3>
+              
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li> Tool Used :</li>
+                <li> Figma</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
+                  <img src={behance} alt="Visit site" />
+                </a>
+                
+              </div>
+            </header>
+            <div className="body">
+              
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={bank} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Bank Application Ui</h3>
+              
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li> Tool Used :</li>
+                <li> Figma</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
+                  <img src={behance} alt="Visit site" />
+                </a>
+                
+              </div>
+            </header>
+            <div className="body">
+              
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={Designpng} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Real Estate Ui</h3>
+              
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li> Tool Used :</li>
+                <li> Figma</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://www.behance.net/rajapandian27" target="_blank" rel="noreferrer">
+                  <img src={behance} alt="Visit site" />
+                </a>
+                
+              </div>
+            </header>
+            <div className="body">
+              
+            <ScrollAnimation className="projectimg" animateIn="fadeInRight" delay={1 * 1000}>
+          <img className="proimg" src={flipkart} alt="Ilustração" />
+        </ScrollAnimation>
+
+              <h3>Flipkart Ui Clone</h3>
+              
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li> Tool Used :</li>
+                <li> Figma</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+       
 
       </div>
-
+      
     </Container>
+
+    
   );
 }

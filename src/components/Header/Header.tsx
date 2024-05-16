@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 
-import CV from '../../assets/Resume - Rajapandian P.pdf'
+import CV from '../../assets/Rajapandian Resume - UiUx.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
 
@@ -31,7 +31,7 @@ export function Header() {
           id="switch"
           name="mode"
         />
-        <label htmlFor="switch">Toggle</label>
+        
 
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>

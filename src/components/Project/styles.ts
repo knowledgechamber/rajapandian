@@ -4,14 +4,13 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 15rem;
   
+
+  
   h2{
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
-  }
-
-  h3{
-    color: white;
+    
   }
   .projects{
     display: grid;
@@ -20,10 +19,11 @@ export const Container = styled.section`
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
+    
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
+      background-color: #000000;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -47,11 +47,11 @@ export const Container = styled.section`
           gap: 1rem;
         }
         img {
-          width: 50.0rem;
+          width: 50rem;
         }
 
         a > img {
-          width: 5.0rem;
+          width: 4.0rem;
         }
         
       }
@@ -72,7 +72,9 @@ export const Container = styled.section`
           }
         }
       }
-
+.url {
+  color:white;
+}
       
 
       footer{
@@ -106,9 +108,17 @@ export const Container = styled.section`
     }
   }
 
+
+  .proimg {
+    width:500px;
+  }
+
   @media (max-width: 960px){
     .projects{
       grid-template-columns: 1fr 1fr;
+    }
+    .proimg {
+      width:260px;
     }
   }
 
@@ -116,5 +126,9 @@ export const Container = styled.section`
     .projects{
       grid-template-columns: 1fr;
     }
+    .proimg {
+      width:260px;
+    }
   }
 `
+

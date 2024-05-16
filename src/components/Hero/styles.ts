@@ -7,23 +7,21 @@ export const Container = styled.section`
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
-    p{
-      font-size: 4rem;
+    & > p{
+      font-size: 1.8rem;
     }
     h1{
-      font-size: 7rem;
+      font-size: 5rem;
     }
 
     h3{
       color:var(--green);
-      margin: 3rem 0;
-      font-size: 4rem;
+      margin: 1rem 0;
     }
 
     
     p.small-resume {
-      margin-bottom: 8rem;
-      font-size: 3rem;
+      margin-bottom: 5rem;
     }
   }
 // New added
@@ -31,7 +29,7 @@ export const Container = styled.section`
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
     padding-top:5rem;
     padding-left:1rem;
 
@@ -49,7 +47,7 @@ export const Container = styled.section`
 
   .hero-image{
     img{
-      max-width: 550px;
+      max-width: 500px;
     }
   }
 

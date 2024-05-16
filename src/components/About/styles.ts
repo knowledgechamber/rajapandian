@@ -19,7 +19,7 @@ export const Container = styled.section`
     align-items: center;
 
     img{
-      width: 3.8rem;
+      width: 3.4rem;
     }
   }
 
@@ -49,7 +49,7 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 50%;
+     width: 75%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -60,7 +60,7 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 480px) {
     .about-image {
-      max-width: 75%;
+      max-width: 100%;
       margin-top: 4rem;
       img{
         margin-top: 2rem;
